@@ -2,7 +2,7 @@
     "name": "brainz",
     "version": "1.0.0",
     "description": "The right solution for cache in memory",
-    "main": "dist/brainz.min.js",
+    "main": "dist/brainz.js",
     "authors": [
         "Felipe Beline Baravieira <fe.belineb@gmail.com>"
     ],
@@ -17,7 +17,7 @@
         "node_modules",
         "bower_components",
         "*.json",
-        "brainz.js",
+        "./brainz.js",
         "gruntfile.coffee",
         "test",
         "tests"
