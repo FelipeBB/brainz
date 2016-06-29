@@ -1,0 +1,6 @@
+.idea
+test
+src
+.editorconfig
+.gitattributes
+gruntfile.coffee

@@ -1,0 +1,29 @@
+{
+  "name": "brainz",
+  "version": "1.0.0",
+  "description": "The right solution for cache in memory",
+  "main": "dist/brainz.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha ./test"
+  },
+  "keywords": [
+    "cache",
+    "memory"
+  ],
+  "author": "Felipe Beline Baravieira <fe.belineb@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "grunt": "^0.4.5",
+    "grunt-browserify": "^5.0.0",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-uglify": "^1.0.1",
+    "grunt-mocha-test": "^0.12.7",
+    "load-grunt-tasks": "^3.3.0"
+  }
+
+}
