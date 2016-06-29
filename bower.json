@@ -1,0 +1,23 @@
+{
+    "name": "brainz",
+    "description": "The right solution for cache in memory",
+    "main": "dist/brainz.min.js",
+    "authors": [
+        "Felipe Beline Baravieira <fe.belineb@gmail.com>"
+    ],
+    "license": "MIT",
+    "keywords": [
+        "cache",
+        "memory"
+    ],
+    "homepage": "https://github.com/FelipeBB/brainz",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "*.json",
+        "brainz.js",
+        "test",
+        "tests"
+    ]
+}
