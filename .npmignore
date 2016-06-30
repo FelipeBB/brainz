@@ -1,6 +1,7 @@
 .idea
 test
-src
 .editorconfig
 .gitattributes
 gruntfile.coffee
+*.json
+/brainz.js

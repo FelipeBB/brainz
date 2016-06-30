@@ -1,7 +1,7 @@
 {
   "name": "brainz",
-  "version": "1.0.0",
-  "description": "The right solution for cache in memory",
+  "version": "1.0.1",
+  "description": "in-memory cache made easy",
   "main": "dist/brainz.js",
   "directories": {
     "test": "tests"

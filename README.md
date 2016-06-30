@@ -1,8 +1,8 @@
 ## brainz
-In-memory cache made easy
+In-memory cache made easy.
 
 ## Instalation
-You can manually download it from `dist` folder or get it through `nmp` / `bower`.
+You can manually download it from `dist` folder or get it through `npm` / `bower`.
 
 ### Npm
 `npm install --save brainz`
@@ -25,7 +25,7 @@ argument is the updated `obj`. __not required__
 * `time` - Time in milliseconds that items will be considerated valid in `obj`. __not required__
 , *default: 36000000*
 
-### brainz(key, method, [callback])
+### brainz(key, request, [callback])
 Caching requests.
 
 __arguments__
