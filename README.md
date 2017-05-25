@@ -17,12 +17,12 @@ Brainz constructor.
 
 __arguments__
 
-* `obj` - Object that contains the cached items.
-* `set(obj)` - Function that will be executed after the `request` resolve. The first
+* `obj` - An object that contains the cached items.
+* `set(obj)` - A function that will be executed after the `request` resolve. The first
 argument is the updated `obj`. __not required__
 * `limit` - Maximum number of items that will be cached in `obj`. __not required__
 , *default: 10000*
-* `time` - Time in milliseconds that items will be considerated valid in `obj`. __not required__
+* `time` - Time in milliseconds that items will be recognized as valid in `obj`. __not required__
 , *default: 36000000*
 
 ### brainz(key, request, [callback])
@@ -60,7 +60,7 @@ brainz(formula, calculate, calcCallback);
 
 ### 2 Custom `set`
 
-If you want to store the cached values in a specific place like localstorage, cookies or give to it
+If you want to store the cached values in a specific place like local storage, cookies or give to it
 a new layer of customization before properly cache it, you can use the `set` param.   
 
 ```js
